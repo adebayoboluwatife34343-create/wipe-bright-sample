@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Wipe &amp; Bright Cleaning Ltd | Bristol &amp; South Gloucestershire Cleaners (Sample)</title>
+<meta name="description" content="Sample website design for Wipe & Bright Cleaning Ltd, Patchway, Bristol. Domestic, commercial, communal and window cleaning.">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--sky:#2fa8e6;--sky-d:#0c6fa8;--mint:#3fd6a6;--mint-l:#dffaf0;--ink:#123047;--bg:#f6fcff;--wa:#25d366}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Nunito,system-ui,sans-serif;color:var(--ink);background:var(--bg);overflow-x:hidden}
+a{color:inherit}
+.sample{position:fixed;top:0;left:0;right:0;z-index:60;background:var(--ink);color:#fff;text-align:center;font-size:.8rem;padding:6px;letter-spacing:.5px}
+.sample b{color:var(--mint)}
+header{position:sticky;top:28px;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);box-shadow:0 2px 14px rgba(18,48,71,.08);margin-top:28px}
+.nav{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 20px;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.25rem;text-decoration:none}
+.logo .drop{width:38px;height:38px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:linear-gradient(135deg,var(--sky),var(--mint));position:relative}
+.logo .drop:after{content:"";position:absolute;width:10px;height:10px;border-radius:50%;background:#fff;top:9px;left:16px;opacity:.85}
+.logo span em{font-style:normal;color:var(--sky)}
+.links{display:flex;gap:18px;font-weight:700}
+.links a{text-decoration:none;font-size:.95rem}
+.links a:hover{color:var(--sky)}
+.btns{display:flex;gap:8px}
+.btn{display:inline-flex;align-items:center;gap:7px;padding:11px 18px;border-radius:40px;font-weight:800;text-decoration:none;border:0;cursor:pointer;font-size:.95rem;transition:transform .2s,box-shadow .2s;font-family:inherit}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(47,168,230,.3)}
+.call{background:var(--sky);color:#fff}
+.wa{background:var(--wa);color:#fff}
+.ghost{background:#fff;color:var(--sky-d);border:2px solid var(--sky)}
+svg.i{width:18px;height:18px;fill:currentColor}
+/* hero */
+.hero{position:relative;min-height:88vh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(160deg,#e8f7ff 0%,#fff 50%,var(--mint-l) 100%)}
+.hero-in{max-width:1150px;margin:auto;padding:60px 20px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;position:relative;z-index:2}
+.tag{display:inline-block;background:var(--mint-l);color:#0f8c66;font-weight:800;padding:6px 14px;border-radius:30px;font-size:.85rem;margin-bottom:16px}
+h1{font-size:clamp(2.3rem,5vw,3.8rem);line-height:1.05;font-weight:900;margin-bottom:18px}
+h1 .shine{background:linear-gradient(90deg,var(--sky),var(--mint),var(--sky));background-size:200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 4s linear infinite}
+@keyframes sh{to{background-position:200%}}
+.hero p.lead{font-size:1.15rem;line-height:1.6;margin-bottom:26px;max-width:540px}
+.hero .btns{flex-wrap:wrap}
+.trust{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.trust span{background:#fff;border:1px solid #d6eefa;padding:7px 12px;border-radius:12px;font-size:.85rem;font-weight:700}
+/* wipe reveal window */
+.window{position:relative;aspect-ratio:4/3.4;border-radius:26px;overflow:hidden;box-shadow:0 25px 60px rgba(18,48,71,.18);border:10px solid #fff;background:linear-gradient(180deg,#bfe9ff,#e9fbff 60%,#c9f3df)}
+.window .scene{position:absolute;inset:0}
+.window .scene .sun{position:absolute;width:80px;height:80px;border-radius:50%;background:#ffe27a;top:28px;right:40px;box-shadow:0 0 40px #ffe27a}
+.window .scene .hill{position:absolute;bottom:-40px;left:-10%;width:120%;height:45%;background:var(--mint);border-radius:50% 50% 0 0}
+.window .scene .house{position:absolute;bottom:22%;left:30%;width:40%;height:32%;background:#fff;border-radius:6px}
+.window .scene .house:before{content:"";position:absolute;left:-10%;top:-55%;border-left:60px solid transparent;border-right:60px solid transparent;border-bottom:60px solid var(--sky-d);width:120%;box-sizing:content-box;border-left-width:calc(10px);border-right-width:10px}
+.window .scene .house i{position:absolute;width:24%;height:34%;background:var(--sky);top:22%;border-radius:4px}
+.window .scene .house i:nth-child(1){left:12%}.window .scene .house i:nth-child(2){right:12%}
+.window .scene .house b{position:absolute;width:20%;height:46%;bottom:0;left:40%;background:var(--ink);border-radius:4px 4px 0 0}
+.window .scene .shinetxt{position:absolute;top:30px;left:28px;font-weight:900;font-size:1.6rem;color:var(--sky-d)}
+.grime{position:absolute;inset:0;background:radial-gradient(circle at 20% 30%,rgba(120,100,70,.55),transparent 40%),radial-gradient(circle at 70% 70%,rgba(110,95,60,.6),transparent 45%),radial-gradient(circle at 50% 50%,rgba(140,120,90,.5),transparent 70%),rgba(150,135,105,.65);clip-path:inset(0 0 0 0);animation:wipe 5s ease-in-out 1s infinite}
+@keyframes wipe{0%,8%{clip-path:inset(0 0 0 0)}45%,80%{clip-path:inset(0 0 0 100%)}100%{clip-path:inset(0 0 0 0)}}
+.squeegee{position:absolute;top:-5%;height:110%;width:26px;left:-30px;animation:sq 5s ease-in-out 1s infinite;z-index:3}
+.squeegee:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0c6fa8,#2fa8e6);border-radius:8px}
+.squeegee:after{content:"";position:absolute;width:70px;height:16px;background:#ffcf33;border-radius:8px;top:48%;left:20px;box-shadow:inset 0 -3px 0 rgba(0,0,0,.15)}
+@keyframes sq{0%,8%{left:-30px}45%,80%{left:100%}100%{left:-30px}}
+.window .label{position:absolute;bottom:12px;left:12px;z-index:4;background:rgba(255,255,255,.9);padding:5px 11px;border-radius:20px;font-weight:800;font-size:.8rem}
+/* bubbles + sparkles */
+.bubbles{position:absolute;inset:0;pointer-events:none;z-index:1}
+.bubble{position:absolute;bottom:-80px;border-radius:50%;background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.95),rgba(47,168,230,.18) 60%,rgba(63,214,166,.25));border:1px solid rgba(255,255,255,.8);animation:rise linear infinite}
+@keyframes rise{to{transform:translateY(-115vh) translateX(40px)}}
+.spark{position:absolute;width:18px;height:18px;pointer-events:none;animation:tw 2.4s ease-in-out infinite}
+.spark:before,.spark:after{content:"";position:absolute;background:#fff;left:50%;top:0;width:3px;height:100%;transform:translateX(-50%);border-radius:3px;box-shadow:0 0 8px var(--sky)}
+.spark:after{transform:translateX(-50%) rotate(90deg)}
+@keyframes tw{0%,100%{transform:scale(0) rotate(0);opacity:0}50%{transform:scale(1) rotate(45deg);opacity:1}}
+section{padding:80px 20px}
+.wrap{max-width:1150px;margin:auto}
+h2{font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:900;margin-bottom:10px;text-align:center}
+.sub{text-align:center;max-width:640px;margin:0 auto 40px;line-height:1.6;color:#3d5a70}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:#fff;border-radius:20px;padding:26px;box-shadow:0 8px 28px rgba(18,48,71,.07);cursor:pointer;transition:.25s;position:relative;overflow:hidden;border:2px solid transparent}
+.card:hover{transform:translateY(-6px);border-color:var(--mint)}
+.card:before{content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.8),transparent);transition:.6s}
+.card:hover:before{left:130%}
+.card .ic{font-size:2.2rem;width:62px;height:62px;display:grid;place-items:center;border-radius:18px;background:linear-gradient(135deg,#e2f5ff,var(--mint-l));margin-bottom:14px}
+.card h3{font-size:1.2rem;margin-bottom:8px}
+.card p{line-height:1.55;color:#3d5a70;font-size:.95rem}
+.card .price{margin-top:12px;font-weight:800;color:var(--sky-d);font-size:.9rem}
+.card .go{margin-top:8px;font-weight:800;color:#0f8c66;font-size:.9rem}
+.communal{background:linear-gradient(135deg,var(--sky-d),var(--sky));color:#fff;border-radius:28px;padding:44px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.communal h2{text-align:left;color:#fff}
+.communal ul{list-style:none;display:grid;gap:10px}
+.communal li{background:rgba(255,255,255,.14);padding:10px 14px;border-radius:12px;font-weight:700}
+.communal li:before{content:"✓ ";color:var(--mint);font-weight:900}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.why div{background:#fff;padding:18px;border-radius:16px;text-align:center;font-weight:800;box-shadow:0 5px 16px rgba(18,48,71,.06)}
+.why div span{display:block;font-size:1.8rem;margin-bottom:6px}
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.rev{background:#fff;border-radius:20px;padding:26px;box-shadow:0 8px 28px rgba(18,48,71,.07);border-top:5px solid var(--mint)}
+.rev .stars{color:#ffb800;font-size:1.2rem;margin-bottom:8px}
+.rev p{line-height:1.6;font-style:italic;margin-bottom:10px}
+.rev small{color:#5d7a8f;font-weight:700}
+.score{text-align:center;margin-bottom:30px;font-weight:800}
+.score b{font-size:2.4rem;color:var(--sky)}
+.areas{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.areas span{background:#fff;border:2px solid #d6eefa;padding:8px 16px;border-radius:30px;font-weight:700}
+.quote{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+form{background:#fff;padding:30px;border-radius:24px;box-shadow:0 12px 36px rgba(18,48,71,.1);display:grid;gap:14px}
+label{font-weight:800;font-size:.9rem;display:grid;gap:6px}
+input,select,textarea{font-family:inherit;font-size:1rem;padding:12px 14px;border:2px solid #d6eefa;border-radius:12px;background:#fbfeff}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--sky)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.info{display:grid;gap:16px;align-content:start}
+.box{background:#fff;padding:22px;border-radius:20px;box-shadow:0 8px 24px rgba(18,48,71,.07)}
+.box h3{margin-bottom:10px}
+table{width:100%;border-collapse:collapse}
+td{padding:7px 4px;border-bottom:1px dashed #d6eefa}
+tr.today td{color:var(--sky-d);font-weight:900}
+.ph{background:#fff6d6;border:1px dashed #e0b400;border-radius:6px;padding:1px 6px;font-size:.85em}
+iframe{width:100%;height:260px;border:0;border-radius:16px}
+footer{background:var(--ink);color:#cfe6f5;padding:40px 20px 110px;text-align:center;line-height:1.8}
+footer b{color:#fff}
+.mbar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:70;background:#fff;box-shadow:0 -4px 18px rgba(0,0,0,.12);padding:10px;gap:10px}
+.mbar a{flex:1;justify-content:center}
+.reveal{opacity:0;transform:translateY(30px);transition:.7s}
+.reveal.in{opacity:1;transform:none}
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 20px;border-radius:30px;opacity:0;transition:.3s;z-index:80;font-weight:700}
+.toast.show{opacity:1;transform:translateX(-50%)}
+@media(max-width:860px){.hero-in,.quote,.communal{grid-template-columns:1fr}.links{display:none}.nav .btns{display:none}.mbar{display:flex}.row{grid-template-columns:1fr}.communal{padding:28px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="sample">✨ <b>Sample design by LeadSky Limited</b> for Wipe &amp; Bright Cleaning Ltd. Not the official website.</div>
+
+<header><div class="nav">
+<a class="logo" href="#top"><div class="drop"></div><span>Wipe <em>&amp;</em> Bright</span></a>
+<nav class="links"><a href="#services">Services</a><a href="#communal">Communal</a><a href="#why">Why us</a><a href="#reviews">Reviews</a><a href="#quote">Free quote</a></nav>
+<div class="btns">
+<a class="btn call" href="tel:+447518619178"><svg class="i" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z"/></svg>Call</a>
+<a class="btn wa" href="https://wa.me/447518619178?text=Hi%20Wipe%20%26%20Bright%2C%20I%27d%20like%20a%20cleaning%20quote." target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2s-1 .3-3.4-.7a11.7 11.7 0 01-4.6-4.1 5.2 5.2 0 01-1.1-2.8 3 3 0 011-2.2 1 1 0 01.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1a.5.5 0 010 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6a8.6 8.6 0 001.6 2 7.8 7.8 0 002.3 1.4c.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3a2.2 2.2 0 01-.1 1.2z"/></svg>WhatsApp</a>
+</div></div></header>
+
+<section class="hero" id="top">
+<div class="bubbles" id="bubbles"></div>
+<div class="hero-in">
+<div>
+<span class="tag">🫧 Family-run cleaners · Bristol &amp; South Gloucestershire</span>
+<h1>Spotless spaces.<br><span class="shine">Bright results.</span></h1>
+<p class="lead">Domestic, commercial, communal and window cleaning from an experienced, DBS-cleared team using eco-friendly products. Based in Patchway and covering the South West.</p>
+<div class="btns">
+<a class="btn wa" href="#quote">💬 Get a free quote</a>
+<a class="btn call" href="tel:+447518619178">📞 07518 619178</a>
+<a class="btn ghost" href="#services">See services</a>
+</div>
+<div class="trust"><span>✅ DBS cleared staff</span><span>🛡️ Liability insured</span><span>🌿 Eco-friendly products</span><span>🏅 CHAS Standard accredited</span></div>
+</div>
+<div class="window" aria-label="Animated squeegee wiping a dirty window clean">
+<div class="scene"><div class="sun"></div><div class="hill"></div><div class="house"><i></i><i></i><b></b></div><div class="shinetxt">Shine &amp; Sparkle ✨</div></div>
+<div class="grime"></div><div class="squeegee"></div>
+<span class="label">Watch it wipe clean</span>
+<div id="wsparks"></div>
+</div>
+</div>
+</section>
+
+<section id="services"><div class="wrap">
+<h2 class="reveal">Our cleaning services</h2>
+<p class="sub reveal">Tap any service to start a WhatsApp quote with it already picked.</p>
+<div class="cards">
+<div class="card reveal" data-s="Domestic Cleaning"><div class="ic">🏠</div><h3>Domestic Cleaning</h3><p>Regular and one-off house cleans tailored to your home and your schedule.</p><div class="price">From <span class="ph">£[price]</span></div><div class="go">Get a quote →</div></div>
+<div class="card reveal" data-s="Deep Cleaning"><div class="ic">🧽</div><h3>Deep Cleaning</h3><p>Top-to-bottom cleans that reach every corner, including monthly deep cleans.</p><div class="price">From <span class="ph">£[price]</span></div><div class="go">Get a quote →</div></div>
+<div class="card reveal" data-s="Commercial Cleaning"><div class="ic">🏢</div><h3>Commercial &amp; Office Cleaning</h3><p>Reliable office and workplace cleaning that keeps your team healthy and productive.</p><div class="price">From <span class="ph">£[price]</span></div><div class="go">Get a quote →</div></div>
+<div class="card reveal" data-s="Commercial Window Cleaning"><div class="ic">🪟</div><h3>Window Cleaning</h3><p>Streak-free commercial and residential window cleaning.</p><div class="price">From <span class="ph">£[price]</span></div><div class="go">Get a quote →</div></div>
+<div class="card reveal" data-s="Communal Area Cleaning"><div class="ic">🏘️</div><h3>Communal Cleaning</h3><p>Specialist cleaning for shared hallways, stairs and entrances in residential blocks.</p><div class="price">Free site visit</div><div class="go">Get a quote →</div></div>
+<div class="card reveal" data-s="End of Tenancy Cleaning"><div class="ic">🔑</div><h3>End of Tenancy Cleaning</h3><p>Move-out cleans that help tenants and landlords hand over a sparkling property.</p><div class="price">From <span class="ph">£[price]</span></div><div class="go">Get a quote →</div></div>
+</div></div></section>
+
+<section id="communal" style="padding-top:20px"><div class="wrap">
+<div class="communal reveal">
+<div><h2>Communal cleaning specialists</h2>
+<p style="line-height:1.7;margin:10px 0 20px">We specialise in domestic communal cleaning. Charges depend on the building size, number of residents and product usage. Minimum 2 hour visits.</p>
+<a class="btn wa" href="#quote" data-pick="Communal Area Cleaning">Book a free site visit</a></div>
+<ul><li>Hard floor chewing gum removal</li><li>Outside sweeping</li><li>Water tap testing</li><li>Emergency lights testing</li><li>Water meter recording</li><li>Hazard, repair and safeguarding reporting</li></ul>
+</div></div></section>
+
+<section id="why"><div class="wrap">
+<h2 class="reveal">Why choose Wipe &amp; Bright</h2>
+<p class="sub reveal">A family business where every clean is done with care, attention to detail and a friendly approach.</p>
+<div class="why">
+<div class="reveal"><span>⏰</span>Punctual</div><div class="reveal"><span>🌿</span>Eco-friendly products</div><div class="reveal"><span>🦺</span>H&amp;S compliant</div><div class="reveal"><span>🪪</span>DBS cleared staff</div><div class="reveal"><span>🛡️</span>Liability insured</div><div class="reveal"><span>💷</span>Competitive rates</div><div class="reveal"><span>😊</span>Satisfaction guaranteed</div><div class="reveal"><span>🏅</span>CHAS Standard &amp; COSHH certified</div>
+</div></div></section>
+
+<section id="reviews" style="background:linear-gradient(180deg,#fff,var(--mint-l))"><div class="wrap">
+<h2 class="reveal">What customers say</h2>
+<p class="score reveal"><b>10/10</b><br>from verified reviews on Checkatrade</p>
+<div class="reviews">
+<div class="rev reveal"><div class="stars">★★★★★</div><p>"The team at Wipe Bright Cleaning did an exceptional job in making our office space spotless. Highly recommend for anyone seeking a reliable cleaning service."</p><small>Office clean, BS34 · Verified Checkatrade review</small></div>
+<div class="rev reveal"><div class="stars">★★★★★</div><p>"We had a trial with WBCC and they did an excellent job so we carried on using them. Not one complaint!"</p><small>Commercial cleaning, BS32 · Checkatrade review</small></div>
+<div class="rev reveal" style="border-top-color:#e0b400"><div class="stars" style="color:#ccc">★★★★★</div><p><span class="ph">[Space for your next customer review]</span></p><small>Add Google reviews here</small></div>
+</div></div></section>
+
+<section id="areas"><div class="wrap">
+<h2 class="reveal">Areas we cover</h2>
+<p class="sub reveal">Based in Patchway, serving Bristol, South Gloucestershire and the wider South West.</p>
+<div class="areas reveal"><span>Patchway</span><span>Bristol</span><span>South Gloucestershire</span><span>South West</span><span class="ph">[add your towns]</span></div>
+</div></section>
+
+<section id="quote" style="background:linear-gradient(160deg,#e8f7ff,#fff)"><div class="wrap">
+<h2 class="reveal">Get your free quote</h2>
+<p class="sub reveal">Fill this in and it opens WhatsApp with your details ready to send. No obligation.</p>
+<div class="quote">
+<form id="qf" class="reveal">
+<div class="row"><label>Your name<input id="n" required placeholder="Jane Smith"></label><label>Postcode<input id="pc" required placeholder="BS34"></label></div>
+<label>Service<select id="s"><option>Domestic Cleaning</option><option>Deep Cleaning</option><option>Commercial Cleaning</option><option>Commercial Window Cleaning</option><option>Communal Area Cleaning</option><option>End of Tenancy Cleaning</option><option>Something else</option></select></label>
+<div class="row"><label>Property type<select id="pt"><option>House</option><option>Flat</option><option>Office</option><option>Communal block</option><option>Shop / commercial</option></select></label><label>How often?<select id="f"><option>One-off</option><option>Weekly</option><option>Fortnightly</option><option>Monthly</option></select></label></div>
+<label>Anything else?<textarea id="m" rows="3" placeholder="Number of rooms, preferred day, access notes..."></textarea></label>
+<button class="btn wa" type="submit" style="justify-content:center;font-size:1.05rem">💬 Send quote request on WhatsApp</button>
+</form>
+<div class="info">
+<div class="box reveal"><h3>📍 Find us</h3><p style="margin-bottom:10px">22 Frise Street, Patchway, Bristol BS34 4AE</p>
+<iframe loading="lazy" title="Map" src="https://maps.google.com/maps?q=22%20Frise%20Street%2C%20Patchway%2C%20Bristol%20BS34%204AE&z=15&output=embed"></iframe></div>
+<div class="box reveal"><h3>🕘 Opening hours</h3>
+<table id="hrs"><tr><td>Monday</td><td>9am to 5pm</td></tr><tr><td>Tuesday</td><td>9am to 5pm</td></tr><tr><td>Wednesday</td><td>9am to 5pm</td></tr><tr><td>Thursday</td><td>9am to 5pm</td></tr><tr><td>Friday</td><td>9am to 5pm</td></tr><tr><td>Saturday</td><td>Closed</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table>
+<p style="margin-top:10px;font-size:.9rem">📞 <a href="tel:+447518619178"><b>07518 619178</b></a><br>✉️ <span class="ph">[your email]</span></p></div>
+</div></div></div></section>
+
+<footer><b>Wipe &amp; Bright Cleaning Ltd</b><br>22 Frise Street, Patchway, Bristol BS34 4AE · Company No. 16628240<br>Directors: Andrew Wearing &amp; Olivia Wearing<br><br><small>✨ Sample design by LeadSky Limited. Placeholders shown in yellow.</small></footer>
+
+<div class="mbar"><a class="btn call" href="tel:+447518619178">📞 Call</a><a class="btn wa" href="https://wa.me/447518619178" target="_blank" rel="noopener">💬 WhatsApp</a></div>
+<div class="toast" id="toast"></div>
+
+<script>
+const B=document.getElementById('bubbles');
+for(let i=0;i<22;i++){const b=document.createElement('div');b.className='bubble';const s=12+Math.random()*50;b.style.cssText=`width:${s}px;height:${s}px;left:${Math.random()*100}%;animation-duration:${8+Math.random()*10}s;animation-delay:${-Math.random()*15}s`;B.appendChild(b)}
+function sparks(el,n){for(let i=0;i<n;i++){const s=document.createElement('div');s.className='spark';s.style.cssText=`left:${Math.random()*95}%;top:${Math.random()*90}%;animation-delay:${Math.random()*2.4}s;z-index:5`;el.appendChild(s)}}
+sparks(document.querySelector('.window'),7);sparks(B,10);
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+function toast(t){const el=document.getElementById('toast');el.textContent=t;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2200)}
+function pick(s){document.getElementById('s').value=s;document.getElementById('quote').scrollIntoView();toast('✨ '+s+' selected');setTimeout(()=>document.getElementById('n').focus(),600)}
+document.querySelectorAll('.card').forEach(c=>c.onclick=()=>pick(c.dataset.s));
+document.querySelectorAll('[data-pick]').forEach(a=>a.onclick=e=>{e.preventDefault();pick(a.dataset.pick)});
+const d=(new Date().getDay()+6)%7;document.querySelectorAll('#hrs tr')[d].classList.add('today');
+document.getElementById('qf').onsubmit=e=>{e.preventDefault();const v=id=>document.getElementById(id).value.trim();
+const msg=`Hi Wipe & Bright, I'd like a free quote.\nName: ${v('n')}\nPostcode: ${v('pc')}\nService: ${v('s')}\nProperty: ${v('pt')}\nFrequency: ${v('f')}\nDetails: ${v('m')||'-'}`;
+window.open('https://wa.me/447518619178?text='+encodeURIComponent(msg),'_blank')};
+</script>
+</body>
+</html>
